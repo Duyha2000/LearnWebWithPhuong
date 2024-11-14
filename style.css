@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* button: color, background color , font size, font weight, button ở giữa, padding, border, border radius */
+/* chữ đậm >500, <500 chữ nhạt */
+
+.button {
+  margin-left: 20px;
+  margin-top: 20px;
+  color: white;
+  background-color: #201b53;
+  font-size: 18px;
+  font-weight: 600;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* không, nó là đường viền, ẩn nó đi */
+  border: none;
+  /* 8 16 24 px */
+  border-radius: 16px;
+  transition: all 0.3s linear;
+}
+
+/* transition sinh ra để giảm độ delay khi hover */
+/* transition: all 0.3s linear : hiệu ứng sẽ tồn tại trong 0.3s */
+.button:hover {
+  /* khi hover vào button ta thường giảm opacity xuống, và để  hình con trỏ chuột pointer */
+  opacity: 0.8;
+  cursor: pointer;
+  /* nghệ sỉ: khi hover button sẽ to lên*/
+  transform: scale(1.1);
+  /* phải dùng javascript */
+}
+
+/* # để css cho id  button class ="" id -> #*/
+/* hover: */

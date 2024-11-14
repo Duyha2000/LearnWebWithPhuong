@@ -1,0 +1,118 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+.art-container {
+  position: relative;
+  width: 300px;
+  height: 400px;
+}
+
+/* Shapes styling */
+.shape {
+  position: absolute;
+  transition: transform 0.5s ease, background-color 0.5s ease;
+}
+
+/* Individual shapes with animations, transitions, and effects */
+.shape1 {
+  width: 150px;
+  height: 30px;
+  background-color: #ff5722;
+  top: 20px;
+  left: 40px;
+  transform: rotate(20deg);
+  animation: moveLeft 2s ease-in-out infinite alternate;
+  animation-fill-mode: forwards;
+}
+
+.shape2 {
+  width: 100px;
+  height: 25px;
+  background-color: #d32f2f;
+  top: 60px;
+  left: 150px;
+  transform: rotate(-15deg);
+  animation: rotateShape 3s ease-in-out infinite alternate;
+  animation-fill-mode: forwards;
+}
+
+.shape3 {
+  width: 120px;
+  height: 200px;
+  background-color: #000000;
+  top: 120px;
+  left: 80px;
+  transform: rotate(10deg);
+  animation: scaleShape 4s ease-in-out infinite alternate;
+  animation-fill-mode: forwards;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.shape4 {
+  width: 60px;
+  height: 20px;
+  background-color: #ff9800;
+  top: 150px;
+  left: 140px;
+  transform: rotate(5deg);
+  transition: transform 0.3s ease;
+}
+
+.shape5 {
+  width: 40px;
+  height: 10px;
+  background-color: #1976d2;
+  top: 320px;
+  left: 90px;
+  transform: rotate(-10deg);
+  transition: transform 0.3s ease;
+}
+
+/* Hover effects */
+.shape:hover {
+  transform: scale(1.1);
+  background-color: #b3e5fc;
+}
+
+/* Keyframe animations */
+@keyframes moveLeft {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-20px);
+  }
+}
+
+@keyframes rotateShape {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes scaleShape {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
+/* Hover transitions for specific shapes */
+.shape4:hover {
+  transform: rotate(15deg) scale(1.2);
+}
+
+.shape5:hover {
+  transform: rotate(-15deg) translateY(10px);
+}
