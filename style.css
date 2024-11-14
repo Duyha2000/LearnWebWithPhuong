@@ -36,4 +36,29 @@
 }
 
 /* # để css cho id  button class ="" id -> #*/
-/* hover: */
+/* hover: vào sẽ ra 1 con trỏ chuột*/
+.CSS:hover {
+  color: red;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+/* border: 1px(kích thước) solid (nét liền) gray (màu sắc) */
+/* set lại chiều rộng cho item, vì item hiện tại border rộng toàn màn hình rồi */
+.item {
+  border: 1px solid #8080802e;
+  width: 400px;
+}
+.Name {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.desc {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+/* hover vào item thì ảnh sẽ scale 1.1  */
+.item:hover {
+  transform: scale(1.1);
+  transition: all 0.3s linear;
+}
