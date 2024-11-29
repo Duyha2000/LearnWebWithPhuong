@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <!-- http://localhost:5500/Grid/index.html-->
+  <!-- Thằng cha: display:grid/flex -->
+  <!-- Flexbox: chia layout theo theo dòng/cột -->
+  <!-- Grid: chia layout theo nhiều dòng/cột -->
+  <body>
+    <section class="veggie">
+      <div class="veggie-top">
+        <h1>Restaurant</h1>
+        <h2>Opening Hours</h2>
+        <p>
+          Mon to Fri 11 AM — 9 PM <br />
+          Sat & Sun 11 AM — 12 PM
+        </p>
+      </div>
+
+      <div class="veggie-menu">
+        <div class="veggie-menu-column">
+          <h2>Starters</h2>
+
+          <!-- Vegetarian -->
+          <h3>Vegetarian</h3>
+          <ul class="veggie-menu-list">
+            <li class="veggie-menu-item">
+              <img
+                src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2022-01-Spring-Rolls%2FVegetarian_Spring_Rolls-2"
+                width="150"
+                height="150"
+              />
+              <h5>Veggie Spring Rolls <span>$5.99</span></h5>
+            </li>
+            <li class="veggie-menu-item">
+              <img
+                src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2022-01-Spring-Rolls%2FVegetarian_Spring_Rolls-2"
+                width="150"
+                height="150"
+              />
+              <h5>Stuffed Mushrooms <span>$6.49</span></h5>
+            </li>
+            <li class="veggie-menu-item">
+              <img
+                src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2022-01-Spring-Rolls%2FVegetarian_Spring_Rolls-2"
+                width="150"
+                height="150"
+              />
+              <h5>Caprese Salad <span>$7.25</span></h5>
+            </li>
+            <li class="veggie-menu-item">
+              <img
+                src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2022-01-Spring-Rolls%2FVegetarian_Spring_Rolls-2"
+                width="150"
+                height="150"
+              />
+              <h5>Caprese Salad <b>(signature) </b> <span>$7.25</span></h5>
+            </li>
+            <li class="veggie-menu-item">
+              <img
+                src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2022-01-Spring-Rolls%2FVegetarian_Spring_Rolls-2"
+                width="150"
+                height="150"
+              />
+              <h5>Bruschetta<span>$6.99 </span></h5>
+            </li>
+          </ul>
+          <!-- Non Vegetarian -->
+          <h3>Non-Vegetarian</h3>
+          <ul class="veggie-menu-list">
+            <li class="veggie-menu-item">
+              <img
+                src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2022-01-Spring-Rolls%2FVegetarian_Spring_Rolls-2"
+                width="150"
+                height="150"
+              />
+              <h5>Veggie Spring Rolls <span>$5.99</span></h5>
+            </li>
+            <li class="veggie-menu-item">
+              <img
+                src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2022-01-Spring-Rolls%2FVegetarian_Spring_Rolls-2"
+                width="150"
+                height="150"
+              />
+              <h5>Stuffed Mushrooms <span>$6.49</span></h5>
+            </li>
+            <li class="veggie-menu-item">
+              <img
+                src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2022-01-Spring-Rolls%2FVegetarian_Spring_Rolls-2"
+                width="150"
+                height="150"
+              />
+              <h5>Caprese Salad <span>$7.25</span></h5>
+            </li>
+            <li class="veggie-menu-item">
+              <img
+                src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2022-01-Spring-Rolls%2FVegetarian_Spring_Rolls-2"
+                width="150"
+                height="150"
+              />
+              <h5>Caprese Salad <b>(signature) </b> <span>$7.25</span></h5>
+            </li>
+            <li class="veggie-menu-item">
+              <img
+                src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2022-01-Spring-Rolls%2FVegetarian_Spring_Rolls-2"
+                width="150"
+                height="150"
+              />
+              <h5>Bruschetta<span>$6.99 </span></h5>
+            </li>
+          </ul>
+        </div>
+
+        <div class="veggie-menu-column">
+          <h2>Main Courses</h2>
+          <!-- Vegetarian -->
+          <h3>Vegetarian</h3>
+          <ul class="veggie-menu-list">
+            <li class="veggie-menu-item">
+              <img
+                src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2022-01-Spring-Rolls%2FVegetarian_Spring_Rolls-2"
+                width="150"
+                height="150"
+              />
+              <h5>Veggie Spring Rolls <span>$5.99</span></h5>
+            </li>
+            <li class="veggie-menu-item">
+              <img
+                src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2022-01-Spring-Rolls%2FVegetarian_Spring_Rolls-2"
+                width="150"
+                height="150"
+              />
+              <h5>Stuffed Mushrooms <span>$6.49</span></h5>
+            </li>
+            <li class="veggie-menu-item">
+              <img
+                src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2022-01-Spring-Rolls%2FVegetarian_Spring_Rolls-2"
+                width="150"
+                height="150"
+              />
+              <h5>Caprese Salad <span>$7.25</span></h5>
+            </li>
+            <li class="veggie-menu-item">
+              <img
+                src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2022-01-Spring-Rolls%2FVegetarian_Spring_Rolls-2"
+                width="150"
+                height="150"
+              />
+              <h5>Caprese Salad <b>(signature) </b> <span>$7.25</span></h5>
+            </li>
+            <li class="veggie-menu-item">
+              <img
+                src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2022-01-Spring-Rolls%2FVegetarian_Spring_Rolls-2"
+                width="150"
+                height="150"
+              />
+              <h5>Bruschetta<span>$6.99 </span></h5>
+            </li>
+          </ul>
+          <!-- Non Vegetarian -->
+          <h3>Non-Vegetarian</h3>
+          <ul class="veggie-menu-list">
+            <li class="veggie-menu-item">
+              <img
+                src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2022-01-Spring-Rolls%2FVegetarian_Spring_Rolls-2"
+                width="150"
+                height="150"
+              />
+              <h5>Veggie Spring Rolls <span>$5.99</span></h5>
+            </li>
+            <li class="veggie-menu-item">
+              <img
+                src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2022-01-Spring-Rolls%2FVegetarian_Spring_Rolls-2"
+                width="150"
+                height="150"
+              />
+              <h5>Stuffed Mushrooms <span>$6.49</span></h5>
+            </li>
+            <li class="veggie-menu-item">
+              <img
+                src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2022-01-Spring-Rolls%2FVegetarian_Spring_Rolls-2"
+                width="150"
+                height="150"
+              />
+              <h5>Caprese Salad <span>$7.25</span></h5>
+            </li>
+            <li class="veggie-menu-item">
+              <img
+                src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2022-01-Spring-Rolls%2FVegetarian_Spring_Rolls-2"
+                width="150"
+                height="150"
+              />
+              <h5>Caprese Salad <b>(signature) </b> <span>$7.25</span></h5>
+            </li>
+            <li class="veggie-menu-item">
+              <img
+                src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2022-01-Spring-Rolls%2FVegetarian_Spring_Rolls-2"
+                width="150"
+                height="150"
+              />
+              <h5>Bruschetta<span>$6.99 </span></h5>
+            </li>
+          </ul>
+        </div>
+
+        <div class="veggie-menu-column">
+          <!-- Vegetarian -->
+          <h2>Desserts</h2>
+          <h3>Vegetarian</h3>
+          <ul class="veggie-menu-list">
+            <li class="veggie-menu-item">
+              <img
+                src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2022-01-Spring-Rolls%2FVegetarian_Spring_Rolls-2"
+                width="150"
+                height="150"
+              />
+              <h5>Veggie Spring Rolls <span>$5.99</span></h5>
+            </li>
+            <li class="veggie-menu-item">
+              <img
+                src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2022-01-Spring-Rolls%2FVegetarian_Spring_Rolls-2"
+                width="150"
+                height="150"
+              />
+              <h5>Stuffed Mushrooms <span>$6.49</span></h5>
+            </li>
+            <li class="veggie-menu-item">
+              <img
+                src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2022-01-Spring-Rolls%2FVegetarian_Spring_Rolls-2"
+                width="150"
+                height="150"
+              />
+              <h5>Caprese Salad <span>$7.25</span></h5>
+            </li>
+            <li class="veggie-menu-item">
+              <img
+                src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2022-01-Spring-Rolls%2FVegetarian_Spring_Rolls-2"
+                width="150"
+                height="150"
+              />
+              <h5>Caprese Salad <b>(signature) </b> <span>$7.25</span></h5>
+            </li>
+            <li class="veggie-menu-item">
+              <img
+                src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2022-01-Spring-Rolls%2FVegetarian_Spring_Rolls-2"
+                width="150"
+                height="150"
+              />
+              <h5>Bruschetta<span>$6.99 </span></h5>
+            </li>
+          </ul>
+          <!-- Non Vegetarian -->
+          <h3>Non-Vegetarian</h3>
+          <ul class="veggie-menu-list">
+            <li class="veggie-menu-item">
+              <img
+                src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2022-01-Spring-Rolls%2FVegetarian_Spring_Rolls-2"
+                width="150"
+                height="150"
+              />
+              <h5>Veggie Spring Rolls <span>$5.99</span></h5>
+            </li>
+            <li class="veggie-menu-item">
+              <img
+                src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2022-01-Spring-Rolls%2FVegetarian_Spring_Rolls-2"
+                width="150"
+                height="150"
+              />
+              <h5>Stuffed Mushrooms <span>$6.49</span></h5>
+            </li>
+            <li class="veggie-menu-item">
+              <img
+                src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2022-01-Spring-Rolls%2FVegetarian_Spring_Rolls-2"
+                width="150"
+                height="150"
+              />
+              <h5>Caprese Salad <span>$7.25</span></h5>
+            </li>
+            <li class="veggie-menu-item">
+              <img
+                src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2022-01-Spring-Rolls%2FVegetarian_Spring_Rolls-2"
+                width="150"
+                height="150"
+              />
+              <h5>Caprese Salad <b>(signature) </b> <span>$7.25</span></h5>
+            </li>
+            <li class="veggie-menu-item">
+              <img
+                src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2022-01-Spring-Rolls%2FVegetarian_Spring_Rolls-2"
+                width="150"
+                height="150"
+              />
+              <h5>Bruschetta<span>$6.99 </span></h5>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

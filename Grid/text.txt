@@ -1,0 +1,137 @@
+<!-- Code từ ngoài vào trong -->
+<!-- <div class="menu-list">
+      <div class="menu-item">
+        <img
+          src="https://cellphones.com.vn/sforum/wp-content/uploads/2024/02/anh-phong-canh-66-1.jpg"
+          width="300"
+          height="300"
+        />
+        <p class="menu-name">Trà đào</p>
+        <p class="menu-desc">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+          aspernatur officia porro a fuga?
+        </p>
+        <button>$10</button>
+      </div>
+      <div class="menu-item">
+        <img
+          src="https://cellphones.com.vn/sforum/wp-content/uploads/2024/02/anh-phong-canh-66-1.jpg"
+          width="300"
+          height="300"
+        />
+        <p class="menu-name">Trà đào</p>
+        <p class="menu-desc">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+          aspernatur officia porro a fuga?
+        </p>
+        <button>$10</button>
+      </div>
+      <div class="menu-item">
+        <img
+          src="https://cellphones.com.vn/sforum/wp-content/uploads/2024/02/anh-phong-canh-66-1.jpg"
+          width="300"
+          height="300"
+        />
+        <p class="menu-name">Trà đào</p>
+        <p class="menu-desc">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+          aspernatur officia porro a fuga?
+        </p>
+        <button>$10</button>
+      </div>
+      <div class="menu-item">
+        <img
+          src="https://cellphones.com.vn/sforum/wp-content/uploads/2024/02/anh-phong-canh-66-1.jpg"
+          width="300"
+          height="300"
+        />
+        <p class="menu-name">Trà đào</p>
+        <p class="menu-desc">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+          aspernatur officia porro a fuga?
+        </p>
+        <button>$10</button>
+      </div>
+      <div class="menu-item">
+        <img
+          src="https://cellphones.com.vn/sforum/wp-content/uploads/2024/02/anh-phong-canh-66-1.jpg"
+          width="300"
+          height="300"
+        />
+        <p class="menu-name">Trà đào</p>
+        <p class="menu-desc">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+          aspernatur officia porro a fuga?
+        </p>
+        <button>$10</button>
+      </div>
+      <div class="menu-item">
+        <img
+          src="https://cellphones.com.vn/sforum/wp-content/uploads/2024/02/anh-phong-canh-66-1.jpg"
+          width="300"
+          height="300"
+        />
+        <p class="menu-name">Trà đào</p>
+        <p class="menu-desc">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+          aspernatur officia porro a fuga?
+        </p>
+        <button>$10</button>
+      </div>
+      <div class="menu-item">
+        <img
+          src="https://cellphones.com.vn/sforum/wp-content/uploads/2024/02/anh-phong-canh-66-1.jpg"
+          width="300"
+          height="300"
+        />
+        <p class="menu-name">Trà đào</p>
+        <p class="menu-desc">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+          aspernatur officia porro a fuga?
+        </p>
+        <button>$10</button>
+      </div>
+      <div class="menu-item">
+        <img
+          src="https://cellphones.com.vn/sforum/wp-content/uploads/2024/02/anh-phong-canh-66-1.jpg"
+          width="300"
+          height="300"
+        />
+        <p class="menu-name">Trà đào</p>
+        <p class="menu-desc">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+          aspernatur officia porro a fuga?
+        </p>
+        <button>$10</button>
+      </div>
+      <div class="menu-item">
+        <img
+          src="https://cellphones.com.vn/sforum/wp-content/uploads/2024/02/anh-phong-canh-66-1.jpg"
+          width="300"
+          height="300"
+        />
+        <p class="menu-name">Trà đào</p>
+        <p class="menu-desc">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+          aspernatur officia porro a fuga?
+        </p>
+        <button>$10</button>
+      </div>
+    </div> -->
+
+CSS:
+.menu-item {
+  background-color: gray;
+}
+
+/* 9 cái menu-item -> nằm trong 1 list */
+.menu-list {
+  display: grid;
+  width: 900px;
+  /* grid-template-columns: chia theo số cột em mong muốn 
+  chia cột theo chiều rộng bằng nhau: fr
+  các phần tử cách nhau: 
+   */
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
