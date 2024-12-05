@@ -1,0 +1,120 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  font-family: "DM Sans", sans-serif;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
+li {
+  list-style: none;
+}
+.container {
+  width: 1293px;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.navbar {
+  display: flex;
+  font-size: 16px;
+  font-weight: 500;
+  gap: 30px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+.logo p {
+  font-family: "Playfair Display", serif;
+  color: black;
+  font-size: 42px;
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: -0.4px;
+  color: #474747;
+}
+.b1 {
+  color: black;
+  padding: 8px 22px;
+  border-radius: 118px;
+  border: 1px solid #2c2f24;
+  background-color: white;
+}
+
+.b1:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+  transition: all 0.3s linear;
+}
+#hero {
+  background-image: url("https://static.thcdn.com/images/medium/original/widgets/350-en/24/original-Untitled_design_-_2024-07-26T095151.262-085224.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 80vh;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+#hero h1 {
+  width: 800px;
+  height: 192px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 96px;
+  text-align: center;
+  color: #2c2f24;
+}
+#hero p {
+  width: 537px;
+  height: 64px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  color: #2c2f24;
+}
