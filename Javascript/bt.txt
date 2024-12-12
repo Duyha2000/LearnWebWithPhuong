@@ -1,0 +1,95 @@
+//console.log("Xin chao");
+//alert("Xin chao");
+
+// let var const: hang so
+// từ khóa (let var const) + tên biến = giá trị
+let point = 5; // integer: số nguyên
+var score = 10.5; // double (float): số thực
+const y = true; // boolean: true or false
+const name = "Tăng Minh Phương"; // String: chuỗi
+/*
+Bài 1:
+Khai báo các biến thuộc các kiểu khác nhau, gán giá trị cho chúng và in ra màn hình console .
+
+Biến i kiểu số nguyên, có giá trị là 10
+
+Biến f kiểu số thực, có giá trị là 20.5
+
+Biến b kiểu logic, có giá trị là true
+
+Biến s kiểu chuỗi, có giá trị là "Hà Nội".
+
+let iaaa = 10;
+let f = 20.5;
+let sss = "Sai gon";
+let x = true;
+
+// console.log : in ra ngoài màn hình console
+// alert: hiển thị ra thông báo ngoài màn hinh
+// console.log(s);
+// alert(s);
+
+// Toán tử (operator): + - * / %
+//console.log(i + f); // 30.5
+// x = a + y;
+// Toán tử 1 ngôi: vòng for, while:
+//i++; // tăng i lên 1 đơn vị (i = i + 1)
+//i = i + 4;
+//console.log(i);
+// Bài tập 2: Create a JavaScript script that declares a variable named width to hold the width of a rectangle and another variable named height to hold the height of the rectangle. Then, calculate the area of the rectangle by multiplying these two variables and display the result on the browser screen.
+
+let w = 4;
+let h = 7;
+console.log(w * h);
+// Bài tập 3: Viết chương trình yêu cầu nhập điểm của một sinh viên cho các môn: Vật lý, Hóa học, và Sinh học. Sau đó hiển thị tổng điểm và điểm trung bình 3 môn này lên màn hình console .
+let o = 6;
+let p = 7; 
+let c = 8;
+console.log((o + p + c) / 3);
+*/
+
+// Bài tập 4: Viết chương trình khai báo hằng số PI và yêu cầu nhập bán kính của một hình tròn, tính toán và in chu vi, diện tích hình chữ nhật đó ra màn hình console.
+
+// Bài tập 4: Viết chương trình khai báo hằng số PI = 3.14 và
+//yêu cầu nhập length, width tính toán và in chu vi, diện tích hình chữ nhật đó ra màn hình console.
+// Chu vi hình tròn: 2 * PI * r
+// Diện tích hình tròn: PI * r * r
+// let r = prompt("Nhập bán kính hình tròn:");
+// console.log(2 * 3.14 * r);
+// console.log(3.14 * r * r);
+// Nhập tên của bạn và in ra ngoài màn hình: dùng prompt
+//let fullName = prompt("Nhập tên của bạn:");
+
+// console.log(fullName);
+// prompt đi không fake số 5 em
+//let length = prompt("input length:");
+//let width = prompt("Input width: ");
+//console.log(length * width);
+// Nhập 3 cạnh tam giác và tính chu vi tam giác:
+//let base = parseInt(prompt("input base")); // "3"
+//let side = parseInt(prompt("input side")); // "4"
+//let side2 = parseInt(prompt("input side2")); // "5"
+//alert(base + side + side2); // "345"
+// Toán tử so sánh trong javascript
+// ==, > , < , <=, >=, !=
+let a = 3;
+let b = 4;
+console.log(a == b); // false
+console.log(a > b); // false
+console.log(a < b); // false
+// If , else
+// Nhập tuổi của bạn và kiểm tra nếu tuổi > 18 thì in ra "Bạn đã đủ tuổi", nếu không thì in ra "Bạn chưa đủ tuổi"
+// let age = parseInt(prompt("Nhập tuổi của bạn:"));
+// if (age > 18) {
+// console.log("Bạn đã đủ tuổi");
+// } else {
+//  console.log("Bạn chưa đủ tuổi");
+// }
+
+// Nhập 1 số và kiểm tra số đó có > 0 không và in ra "Số dương" nếu > 0, nếu không thì in ra "Số âm"
+let number = parseInt(prompt("Nhập vào 1 số: "));
+if (number > 0) {
+  console.log("positive");
+} else {
+  console.log("negative");
+}
