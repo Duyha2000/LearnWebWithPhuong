@@ -1,0 +1,70 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  margin: 0px;
+  cursor: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.final {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.final .overlap-group-wrapper {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.final .overlap-group {
+  position: relative;
+  height: 1024px;
+  background-color: #f0b3b7;
+  background-image: url(./img/jenga-egg-1-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.final .img {
+  position: absolute;
+  width: 1440px;
+  top: -90px;
+  left: 0;
+  object-fit: cover;
+}
+
+.custom-pointer {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: url("img/mouse-pointer.png") no-repeat center/contain;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+  animation: cursorAnim 0.5s infinite alternate;
+  border-radius: 50%;
+  z-index: 100;
+}
+
+@keyframes cursorAnim {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.7);
+  }
+}
